@@ -1,0 +1,15 @@
+;	From: @(#)localhost.rev	5.1 (Berkeley) 6/30/90
+; $FreeBSD: src/etc/namedb/PROTO.localhost.rev,v 1.1.6.2 1999/09/05 11:02:11 peter Exp $
+;
+; This file is automatically edited by the `make-localhost' script in
+; the /etc/namedb directory.
+;
+
+@	IN	SOA	SRI-NIC.ARPA. root.SRI-NIC.ARPA.  (
+				20170603	; Serial
+				3600	; Refresh
+				900	; Retry
+				3600000	; Expire
+				3600 )	; Minimum
+	IN	NS	SRI-NIC.ARPA.
+1	IN	PTR	localhost.ARPA.
