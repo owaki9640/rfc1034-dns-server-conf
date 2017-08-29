@@ -64,5 +64,5 @@ echo
 echo "##################################"
 echo '6.2.8. QNAME=USC-ISIC.ARPA, QTYPE=CNAME'
 dnsquery_norec CNAME USC-ISIC.ARPA 26.3.0.103
-dnsquery_norec A USC-ISIC.ARPA 10.0.0.52
+dnsquery_norec CNAME USC-ISIC.ARPA 10.0.0.52
 echo
