@@ -24,6 +24,7 @@ directory	/etc/namedb
 ;cache     .							named.root
 ;secondary  domain.com              192.168.1.1    domain.com.bak  
 secondary  .                      26.3.0.73       root.slave.zone
+primary   isi.edu               isi.edu.zone
 primary   0.0.127.IN-ADDR.ARPA	localhost.rev
 
 ; NB: Do not use the IP addresses below, they are faked, and only
