@@ -16,4 +16,4 @@ Note: 26.3.0.73 on SRI-NIC.ARPA is to communicate with A.ISI.EDU.
  
 ## DNS server software / Operating system
  
-* BIND 4.9.7 / FreeBSD 2.2.8
+* [BIND 4.9.7 / FreeBSD 2.2.8](/BIND-4.9.7-FreeBSD-2.2.8/)
