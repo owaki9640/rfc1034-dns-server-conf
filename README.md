@@ -19,3 +19,4 @@ Configured following three DNS servers.
 ## DNS server software / Operating system
  
 * [BIND 4.9.7 / FreeBSD 2.2.8](/BIND-4.9.7-FreeBSD-2.2.8/)
+* [BIND 8.3.7 / FreeBSD 4.11](/BIND-8.3.7-FreeBSD-4.11/)
