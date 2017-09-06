@@ -1,0 +1,20 @@
+$TTL 3600
+
+ISI.EDU.  IN    SOA     A.ISI.EDU. HOSTMASTER.ISI.EDU. (
+                        2017082900 ;serial
+                        1800 ;refresh every 30 minutes
+                        900 ;retry every 15 minutes
+                        604800 ;expire after a week
+                        86400 ;minimum of a day
+                        )
+
+                NS      A.ISI.EDU.
+                NS      VAXA.ISI.EDU.
+                NS      VENERA.ISI.EDU.
+
+A       259200  A       26.3.0.103
+C       259200  A       10.0.0.52
+VAXA    259200  A       10.2.0.27
+        259200  A       128.9.0.33
+VENERA  259200  A       10.1.0.52
+        259200  A       128.9.0.32
