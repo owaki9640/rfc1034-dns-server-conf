@@ -1,0 +1,147 @@
+##################################
+6.2.1. QNAME=SRI-NIC.ARPA, QTYPE=A
+=================
+Non-recursive query SRI-NIC.ARPA type A to 10.0.0.52
+-----------------
+1 sri-nic.arpa:
+160 bytes, 1+2+3+3 records, response, authoritative, weird ra, noerror
+query: 1 sri-nic.arpa
+answer: sri-nic.arpa 86400 A 10.0.0.51
+answer: sri-nic.arpa 86400 A 26.0.0.73
+authority: . 86400 NS a.isi.edu
+authority: . 86400 NS c.isi.edu
+authority: . 86400 NS sri-nic.arpa
+additional: a.isi.edu 172800 A 26.3.0.103
+additional: sri-nic.arpa 86400 A 10.0.0.51
+additional: sri-nic.arpa 86400 A 26.0.0.73
+
+##################################
+6.2.2. QNAME=SRI-NIC.ARPA, QTYPE=*
+=================
+Non-recursive query SRI-NIC.ARPA type ANY to 10.0.0.52
+-----------------
+255 sri-nic.arpa:
+204 bytes, 1+4+3+3 records, response, authoritative, weird ra, noerror
+query: 255 sri-nic.arpa
+answer: sri-nic.arpa 86400 13 \010DEC-2060\006TOPS20
+answer: sri-nic.arpa 86400 A 10.0.0.51
+answer: sri-nic.arpa 86400 A 26.0.0.73
+answer: sri-nic.arpa 86400 MX 0 sri-nic.arpa
+authority: . 86400 NS a.isi.edu
+authority: . 86400 NS c.isi.edu
+authority: . 86400 NS sri-nic.arpa
+additional: a.isi.edu 172800 A 26.3.0.103
+additional: sri-nic.arpa 86400 A 10.0.0.51
+additional: sri-nic.arpa 86400 A 26.0.0.73
+
+##################################
+6.2.3. QNAME=SRI-NIC.ARPA, QTYPE=MX
+=================
+Non-recursive query SRI-NIC.ARPA type MX to 10.0.0.52
+-----------------
+15 sri-nic.arpa:
+144 bytes, 1+1+3+3 records, response, authoritative, weird ra, noerror
+query: 15 sri-nic.arpa
+answer: sri-nic.arpa 86400 MX 0 sri-nic.arpa
+authority: . 86400 NS a.isi.edu
+authority: . 86400 NS c.isi.edu
+authority: . 86400 NS sri-nic.arpa
+additional: a.isi.edu 172800 A 26.3.0.103
+additional: sri-nic.arpa 86400 A 10.0.0.51
+additional: sri-nic.arpa 86400 A 26.0.0.73
+
+##################################
+6.2.4. QNAME=SRI-NIC.ARPA, QTYPE=NS
+=================
+Non-recursive query SRI-NIC.ARPA type NS to 10.0.0.52
+-----------------
+2 sri-nic.arpa:
+76 bytes, 1+0+1+0 records, response, authoritative, weird ra, noerror
+query: 2 sri-nic.arpa
+authority: . 86400 SOA sri-nic.arpa hostmaster.sri-nic.arpa 870611 1800 300 604800 86400
+
+##################################
+6.2.5. QNAME=SIR-NIC.ARPA, QTYPE=A
+=================
+Non-recursive query SIR-NIC.ARPA type A to 10.0.0.52
+-----------------
+1 sir-nic.arpa:
+88 bytes, 1+0+1+0 records, response, authoritative, weird ra, nxdomain
+query: 1 sir-nic.arpa
+authority: . 86400 SOA sri-nic.arpa hostmaster.sri-nic.arpa 870611 1800 300 604800 86400
+
+##################################
+6.2.6. QNAME=BRL.MIL, QTYPE=A
+=================
+Non-recursive query BRL.MIL type A to 10.0.0.52
+-----------------
+1 brl.mil:
+125 bytes, 1+0+2+3 records, response, weird ra, noerror
+query: 1 brl.mil
+authority: mil 86400 NS a.isi.edu
+authority: mil 86400 NS sri-nic.arpa
+additional: a.isi.edu 172800 A 26.3.0.103
+additional: sri-nic.arpa 86400 A 10.0.0.51
+additional: sri-nic.arpa 86400 A 26.0.0.73
+
+##################################
+6.2.7. QNAME=USC-ISIC.ARPA, QTYPE=A
+=================
+Non-recursive query USC-ISIC.ARPA type A to 26.3.0.103
+-----------------
+1 usc-isic.arpa:
+190 bytes, 1+1+3+5 records, response, authoritative, weird ra, noerror
+query: 1 usc-isic.arpa
+answer: usc-isic.arpa 86400 CNAME c.isi.edu
+authority: isi.edu 163694 NS a.isi.edu
+authority: isi.edu 163694 NS vaxa.isi.edu
+authority: isi.edu 163694 NS venera.isi.edu
+additional: a.isi.edu 172800 A 26.3.0.103
+additional: vaxa.isi.edu 172326 A 10.2.0.27
+additional: vaxa.isi.edu 172326 A 128.9.0.33
+additional: venera.isi.edu 172326 A 10.1.0.52
+additional: venera.isi.edu 172326 A 128.9.0.32
+=================
+Non-recursive query USC-ISIC.ARPA type A to 10.0.0.52
+-----------------
+1 usc-isic.arpa:
+190 bytes, 1+1+3+5 records, response, authoritative, weird ra, noerror
+query: 1 usc-isic.arpa
+answer: usc-isic.arpa 86400 CNAME c.isi.edu
+authority: isi.edu 172800 NS a.isi.edu
+authority: isi.edu 172800 NS vaxa.isi.edu
+authority: isi.edu 172800 NS venera.isi.edu
+additional: a.isi.edu 172800 A 26.3.0.103
+additional: vaxa.isi.edu 172800 A 10.2.0.27
+additional: vaxa.isi.edu 172800 A 128.9.0.33
+additional: venera.isi.edu 172800 A 10.1.0.52
+additional: venera.isi.edu 172800 A 128.9.0.32
+
+##################################
+6.2.8. QNAME=USC-ISIC.ARPA, QTYPE=CNAME
+=================
+Non-recursive query USC-ISIC.ARPA type CNAME to 26.3.0.103
+-----------------
+5 usc-isic.arpa:
+155 bytes, 1+1+3+3 records, response, authoritative, weird ra, noerror
+query: 5 usc-isic.arpa
+answer: usc-isic.arpa 86400 CNAME c.isi.edu
+authority: . 86400 NS a.isi.edu
+authority: . 86400 NS c.isi.edu
+authority: . 86400 NS sri-nic.arpa
+additional: a.isi.edu 172800 A 26.3.0.103
+additional: sri-nic.arpa 86400 A 10.0.0.51
+additional: sri-nic.arpa 86400 A 26.0.0.73
+=================
+Non-recursive query USC-ISIC.ARPA type CNAME to 10.0.0.52
+-----------------
+5 usc-isic.arpa:
+155 bytes, 1+1+3+3 records, response, authoritative, weird ra, noerror
+query: 5 usc-isic.arpa
+answer: usc-isic.arpa 86400 CNAME c.isi.edu
+authority: . 86400 NS a.isi.edu
+authority: . 86400 NS c.isi.edu
+authority: . 86400 NS sri-nic.arpa
+additional: a.isi.edu 172800 A 26.3.0.103
+additional: sri-nic.arpa 86400 A 10.0.0.51
+additional: sri-nic.arpa 86400 A 26.0.0.73
