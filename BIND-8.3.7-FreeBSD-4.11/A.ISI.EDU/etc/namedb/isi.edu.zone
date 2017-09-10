@@ -1,4 +1,4 @@
-$TTL 3600
+$TTL 86400
 
 ISI.EDU.  IN    SOA     A.ISI.EDU. HOSTMASTER.ISI.EDU. (
                         2017082900 ;serial

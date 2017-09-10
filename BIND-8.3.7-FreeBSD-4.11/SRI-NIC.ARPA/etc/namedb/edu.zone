@@ -1,4 +1,4 @@
-$TTL 3600
+$TTL 86400
 
 EDU.  IN SOA SRI-NIC.ARPA. HOSTMASTER.SRI-NIC.ARPA. (
                         870729 ;serial
